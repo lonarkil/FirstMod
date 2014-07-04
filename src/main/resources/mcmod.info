@@ -1,0 +1,21 @@
+[
+{
+"modid": "FirstMod",
+"name": "First Mod",
+"description": "Learning how to mod with Pahimar's LetsModReboot-tutorial.",
+"version": "1.0",
+"mcversion": "1.7.2",
+"url": "",
+"updateUrl": "",
+"authorList": [
+"Thris","pahimar"
+],
+"credits": "Thanks to pahimar",
+"logoFile": "",
+"screenshots": [
+],
+"parent":"",
+"dependencies": [
+]
+}
+]

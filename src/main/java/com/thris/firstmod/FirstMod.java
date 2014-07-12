@@ -1,6 +1,7 @@
 package com.thris.firstmod;
 
 import com.thris.firstmod.handler.ConfigurationHandler;
+import com.thris.firstmod.init.ModItems;
 import com.thris.firstmod.proxy.IProxy;
 import com.thris.firstmod.reference.Reference;
 import com.thris.firstmod.utility.LogHelper;
@@ -24,6 +25,8 @@ public class FirstMod {
     public void preInit(FMLPreInitializationEvent event){
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        ModItems.init();
         LogHelper.info("Pre Initialization Complete!");
     }
 
